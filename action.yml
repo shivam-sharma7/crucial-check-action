@@ -1,0 +1,6 @@
+name: "Crucial Check Action"
+description: "Check README and LICENSE files are exist"
+author: "Shivam Sharma"
+runs:
+  using: node16 # we can support node12 but in this case I want keep this
+  main: 'index.js'

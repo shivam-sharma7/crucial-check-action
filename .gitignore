@@ -1,0 +1,5 @@
+build/Release
+# optional npm cache directory
+.npm
+# typscript v1 declairation files
+typings/
