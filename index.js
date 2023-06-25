@@ -1,6 +1,6 @@
-import core from'@actions/core'
-import github from '@actions/github'
-import fs from 'fs'
+const core = require('@actions/core');
+const github = require('@actions/github');
+const fs = require('fs');
 
 async function checkFileExists(filePath) {
     return fs.promises.access(filePath)
